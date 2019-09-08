@@ -8,8 +8,10 @@ use std::env;
 
 fn help() {
     println!("subcommands:");
-    println!("    new<title>: create a new task");
+    println!("    new <title>: create a new task");
     println!("    show: show all tasks");
+    println!("    complete <id>: mark a task complete");
+    println!("    delete <id>: remove a task");
 }
 
 fn main() {
